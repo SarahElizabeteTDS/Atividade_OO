@@ -19,7 +19,7 @@ class Pessoa{
     }
 
     function falarAltura(){
-        print "Tenho " . $this -> altura . " metros. \n";
+        print "Tenho " . $this -> altura . " metros \n";
     }
 
 }
