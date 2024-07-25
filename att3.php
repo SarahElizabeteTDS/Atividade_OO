@@ -7,8 +7,7 @@ class Retangulo{
     public $altura;
 
     //construct
-    function __construct($b,$a) 
-    {
+    function __construct($b,$a){
         $this->base = $b;
         $this->altura = $a;
     }
