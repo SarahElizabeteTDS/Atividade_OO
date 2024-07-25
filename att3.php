@@ -24,7 +24,7 @@ class Retangulo{
     }
 }
 
-for ($i=0; $i < 3; $i++) { 
+for ($i=0; $i < 3; $i++){ 
 
     $b = readline("Insira a base do retângulo " . $i+1 . ": ");
     $a = readline("Insira a altura do retângulo " . $i+1 . ": ");
