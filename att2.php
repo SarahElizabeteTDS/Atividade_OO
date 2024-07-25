@@ -26,5 +26,5 @@ for ($i=0; $i < 3; $i++) {
     $retangulo -> altura = readline("Insira a altura do retângulo " . $i+1 . ": ");
     
     print "O valor da área é de: " . $retangulo->area() . "m² \n";
-    print "O valor do perimetro é de: " . $retangulo->perimetro() . "m² \n";
+    print "O valor do perimetro é de: " . $retangulo->perimetro() . "m \n";
 }
