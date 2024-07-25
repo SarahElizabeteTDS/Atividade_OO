@@ -8,6 +8,7 @@ class Retangulo{
 
     //construct
     function __construct($b,$a){
+        print "\n";
         $this->base = $b;
         $this->altura = $a;
     }
@@ -31,6 +32,6 @@ for ($i=0; $i < 3; $i++){
 
     $retangulo = new Retangulo($b,$a);
     
-    print "O valor da área é de: " . $retangulo->area() . "m² \n";
-    print "O valor do perimetro é de: " . $retangulo->perimetro() . "m \n";
+    print "O valor da área do triângulo ". $i+1 . " é de: " . $retangulo->area() . "m² \n";
+    print "O valor do perimetro do triângulo ". $i+1 . " é de: " . $retangulo->perimetro() . "m \n\n";
 }
